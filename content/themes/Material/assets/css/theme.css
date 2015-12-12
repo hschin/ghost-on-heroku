@@ -5,30 +5,30 @@
 /* --- General -------------------------------------------------------------- */
 
 body {
-  background-color: #E4E7EA;
+  background-color: #FAFAFA;
 }
 a {
-  color: #ffb300;
+  color: #0F53BD;
 }
 a:hover {
-  color: #00897b;
+  color: #77A8F4;
 }
 .bg-image.no-image {
-  background-color: #26a69a;
+  background-color: #66BB6A;
 }
 
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #26a69a;
-  color: white;
+  background-color: #1B5E20;
+  color: #FFFFFF;
 }
 .navbar a {
   color: white;
 }
 .navbar--nav-link:hover {
-  background-color: rgba(255,255,255,.5);
-  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 0;
 }
 
 /* --- Header --------------------------------------------------------------- */
@@ -38,7 +38,7 @@ a:hover {
   color: white;
 }
 .header .navbar.fixed.autohide.show {
-  background-color: #26a69a;
+  background-color: #1B5E20;
 }
 .header--subtitle {
   color: #ddd;
@@ -52,15 +52,15 @@ a:hover {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: teal;
+  border-color: #1B5E20;
 }
 .post--content p > code {
   background-color: #e0f2f1;
-  color: teal;
+  color: #1B5E20;
 }
 .post--content blockquote {
   background-color: #e0f2f1;
-  border-color: teal;
+  border-color: #1B5E20;
 }
 .post--tags a {
   color: #888;
@@ -92,14 +92,14 @@ a:hover {
   background-color: rgba(0,0,0,.05);
 }
 .author--media {
-  background-color: #26a69a;
+  background-color: #1B5E20;
 }
 
 /* --- FABs ----------------------------------------------------------------- */
 
 .fab {
   color: white;
-  background-color: #ffb300;
+  background-color: #0F53BD;
 }
 .fab:hover {
   color: white;
@@ -109,7 +109,7 @@ a:hover {
 
 .button.solid {
   color: white;
-  background-color: #ffb300;
+  background-color: #0F53BD;
 }
 
 /* --- Waves ---------------------------------------------------------------- */
@@ -121,23 +121,23 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #00897b;
+  background-color: #EEEEEE;
 }
 .footer a {
-  color: #B2DFDB;
+  color: #9E9E9E;
 }
 .footer a:hover {
-  color: #FFFFFF;
+  color: #BDBDBD;
 }
 .footer--top {
-  color: #80cbc4;
+  color: rgba(0, 0, 0, 0.87);
 }
 .footer--bottom a {
-  color: #004d40;
+  color: rgba(0, 0, 0, 0.87);
 }
 .footer--bottom a:hover {
-  color: #80cbc4;
+  color: rgba(0, 0, 0, 0.54);
 }
 .footer--bottom {
-  color: #004d40 ;
+  color: rgba(0, 0, 0, 1);
 }
