@@ -7,19 +7,12 @@
   {{! data params set popup width and height       }}
 
   <div class="actions">
-    <!-- Twitter -->
-    <a class="button solid shaded ripple twitter intent"
-      data-width="550"
-      data-height="235"
-      href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}">
-      <i class="mdi mdi-twitter"></i> Twitter
-    </a>
-    <!-- Google+ -->
-    <a class="button solid shaded ripple google-plus intent"
-      data-width="590"
-      data-height="530"
-      href="https://plus.google.com/share?url={{url absolute="true"}}">
-      <i class="mdi mdi-google-plus"></i> Google+
+    <!-- LinkedIn -->
+    <a class="button solid shaded ripple linkedin intent"
+      data-width="580"
+      height="235"
+      href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}">
+      <i class="mdi mdi-linkedin"></i> LinkedIn
     </a>
     <!-- Facebook -->
     <a class="button solid shaded ripple facebook intent"
@@ -27,6 +20,13 @@
       height="235"
       href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}">
       <i class="mdi mdi-facebook"></i> Facebook
+    </a>
+    <!-- Twitter -->
+    <a class="button solid shaded ripple twitter intent"
+      data-width="550"
+      data-height="235"
+      href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}">
+      <i class="mdi mdi-twitter"></i> Twitter
     </a>
   </div>
 </div>
